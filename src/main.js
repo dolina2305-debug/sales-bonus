@@ -54,7 +54,6 @@ function analyzeSalesData(data, options) {
     }
 
     // @TODO: Проверка наличия опций
-
     if (typeof options !== 'object') {
         throw new Error('Опции должны быть объектом');
     }
