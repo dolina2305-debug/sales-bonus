@@ -42,7 +42,7 @@ function calculateBonusByProfit(index, total, seller) {
  */
 function analyzeSalesData(data, options) {
     // @TODO: Проверка входных данных
-
+    
     if (!data
         || !Array.isArray(data.sellers)
         || data.sellers.length === 0
